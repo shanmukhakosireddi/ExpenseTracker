@@ -8,10 +8,7 @@ import (
 
 var usersFile = "users.json"
 
-type User struct {
-	Username string `json:"username"`
-	Password string `json:"password"`
-}
+
 
 
 // Check if user exists
